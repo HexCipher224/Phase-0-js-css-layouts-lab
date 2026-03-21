@@ -12,7 +12,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    align-items: center;
+    text-align: center;
     max-width: 100%;
     transition: transform 0.3s;
 }
@@ -39,5 +39,9 @@
     .cat-container {
         flex-direction: column;
         align-items: center;
+    }
+    .cat-breed {
+        flex: 1 1 100%;
+        max-width: 100%;
     }
 }
